@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 1440px;
+    
+    margin: auto;
+    background-color: #F3D7B7;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.h1{
+    font-size: 70px;
+    position: relative;
+    top: 176px;
+    left: 50px  ;
+}
+.text{
+    font-size: 20px;
+    position: relative;
+    top: 223px;
+    left: 50px;
+}
+.im{
+    z-index: 1;
+    position: relative;
+    left: 600px;
+    top: 100px;
+    transition: all 50s;
+}
+.im:hover{
+    transform: rotate(99999deg);
+}
+.coffee{
+    position: relative;
+    top: 16px;
+    left: 730px;
+}
+.png{
+    position: relative;
+    top: 100px;
+    left: 642px;
+}
+.btn{
+    width: 193px;
+    height: 51px;
+    border-radius: 100px;
+    position: relative;
+    top: 392px;
+    left: 50px;
+    background-color: #0A775F;
+    color: #FFFFFF;
+    border: 1px solid #0A775F;
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color: black;
+
+
+}
+.content{
+    width: 1440px;
+    height: 2500px;
+    margin: auto;
+    background-color: #fff8f0;
+    
+}
+.tit{
+    font-size: 50px;
+    position: relative;
+    top: 108px;
+    left: 543px;
+}
+
+.container2{
+    position: relative;
+    left: 163px;
+    top: 209px;
+    width: 1117px;
+    background-color: #fff8f0;
+}
+    
+.danche{
+    font-size: 48px;
+    position: relative;
+    left: 630px;
+    bottom: 250px;
+    
+}
+.eu{
+    font-size: 22px;
+    position: relative;
+    left: 630px;
+    bottom: 240px;
+}
+.b{
+    position: relative;
+    left: 629px;
+}
+.Gran{
+    font-size: 48px;
+    position: relative;
+    bottom: 250px;
+    left: 100px;
+}
+.lie{
+    font-size: 22px;
+    position: relative;
+    bottom: 240px;
+    left: 100px;
+}
+.pic{
+    font-size: 48px;
+    position: relative;
+    left: 630px;
+    bottom: 250px;
+}
+.mild{
+     font-size: 22px;
+    position: relative;
+    left: 630px;
+    bottom: 240px;
+}
+.footer{
+    width: 1440px;
+    margin: auto;
+    background-color: #F3D7B7;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
